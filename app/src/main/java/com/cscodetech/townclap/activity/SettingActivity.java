@@ -37,8 +37,6 @@ public class SettingActivity extends BasicActivity {
     @BindView(R.id.lvl_menu3)
     LinearLayout lvlMenu3;
 
-    @BindView(R.id.lvl_menu4)
-    LinearLayout lvlMenu4;
     @BindView(R.id.lvl_menu5)
     LinearLayout lvlMenu5;
     @BindView(R.id.lvl_menu6)
@@ -63,7 +61,7 @@ public class SettingActivity extends BasicActivity {
 
     }
 
-    @OnClick({R.id.lvl_laug, R.id.lvl_menu1, R.id.lvl_menu2, R.id.lvl_menu3, R.id.lvl_menu4, R.id.lvl_menu5, R.id.lvl_menu6, R.id.lvl_logot, R.id.lvl_edit, R.id.lvl_contec, R.id.lvl_privacy, R.id.lvl_trams})
+    @OnClick({R.id.lvl_laug, R.id.lvl_menu1, R.id.lvl_menu2, R.id.lvl_menu3, R.id.lvl_menu5, R.id.lvl_menu6, R.id.lvl_logot, R.id.lvl_edit, R.id.lvl_contec, R.id.lvl_privacy, R.id.lvl_trams})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.lvl_menu1:
@@ -86,15 +84,6 @@ public class SettingActivity extends BasicActivity {
             case R.id.lvl_contec:
                 startActivity(new Intent(SettingActivity.this, ContectusActivity.class));
 
-                break;
-            case R.id.lvl_menu4:
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.app_name));
-                String shareMessage = "Hey! Now use our app to share with your family or friends. User will get wallet amount on your 1st successful order. Enter my referral code *" + 1234 + "* & Enjoy your shopping !!!";
-                shareMessage = shareMessage + " https://play.google.com/store/apps/details?id=com.cscodetech.townclap\n\n";
-                shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
-                startActivity(Intent.createChooser(shareIntent, "choose one"));
                 break;
             case R.id.lvl_menu5:
                 startActivity(new Intent(SettingActivity.this, ReferlActivity.class));
