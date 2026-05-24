@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lvl_itemclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center|top"
+                android:background="@drawable/border_category"
+                android:padding="10dp"
+
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                style="@style/myfont"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:text="asdasdasd"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

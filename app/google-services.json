@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839784051967",
+    "project_id": "customer-roj-kam",
+    "storage_bucket": "customer-roj-kam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839784051967:android:b403e70610ebdeea29c8ca",
+        "android_client_info": {
+          "package_name": "com.cscodetech.townclap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQzy8Bw1hJVw-5xnREurjc92xErl3mPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839784051967:android:fd7f9cd56e22c8db29c8ca",
+        "android_client_info": {
+          "package_name": "com.rojkam.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQzy8Bw1hJVw-5xnREurjc92xErl3mPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
