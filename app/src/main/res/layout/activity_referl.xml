@@ -79,7 +79,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="WXTRYFDHJ"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/black" />
 
 
                     <TextView
@@ -89,7 +89,7 @@
                         android:layout_marginRight="10dp"
                         android:gravity="center"
                         android:text="@string/copy"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
