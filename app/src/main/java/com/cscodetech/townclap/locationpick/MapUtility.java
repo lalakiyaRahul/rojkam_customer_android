@@ -19,7 +19,7 @@ import com.cscodetech.townclap.R;
 
 public class MapUtility {
     public static final String MAP_URL = "https://maps.googleapis.com";
-    public static String apiKey = "**************************";
+    public static String apiKey = "AIzaSyBUuRNsHeqXeR9XAcCQ3i-L4tWvkQvI2-s";
     public static Location currentLocation = null;
     public static Dialog popupWindow;
     public static String address = "address";
